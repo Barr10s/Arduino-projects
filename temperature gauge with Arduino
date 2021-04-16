@@ -1,4 +1,4 @@
-int Temperatura = 46;
+int Temperatura = 27;
 
 void setup() {
   Serial.begin (9600);}
@@ -11,9 +11,8 @@ void loop() {
     Serial.println ("FRIO");
   }else if (Temperatura > 15 && Temperatura <= 30){
     Serial.println ("INTERMEDIARIA");
-    } else if (Temperatura > 30 && Temperatura <= 10000000){
+    } else if (Temperatura > 30 && Temperatura <= 45){
     Serial.println ("QUENTE");
     }
   delay(1500);
   }
-
