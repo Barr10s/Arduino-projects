@@ -16,7 +16,7 @@ void loop() {
     } else if (Temperatura > 30 && Temperatura <= 45){
     Serial.println ("QUENTE");
   } else {
-    Serial.println ("VOCE MORA EM CUIABA");
+    Serial.println ("MUITO QUENTE");
   }
   delay(1500);
   }
